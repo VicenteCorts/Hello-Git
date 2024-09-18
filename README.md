@@ -132,11 +132,10 @@ En caso de no tener claves ssh-> https://docs.github.com/es/authentication/conne
 4. poner claves si queremos en mi caso he pulsado enter dos veces para dejar la clave vacía
 5. en C:/Users/Vicente Corts León/.ssh se han creado dos archivos de claves; el importante es id_rsa.pub
 6. Comprobar que la nueva clave generada funciona -> Iniciamos el agente ssh en segundo plano con:
-eval "$(ssh-agent -s)"
-(responde)> Agent pid 1236
-7.  Añadir la siguiente clave a nuestro sistema de gestión al final de las propias claves del sistema
-ssh-add ~/.ssh/id_rsa
-8.clip <~/.ssh/id_rsa (para copiar el contenido del archivo id_rsa.pub)
+	eval "$(ssh-agent -s)"
+	(responde)> Agent pid 1236
+7. Añadir la siguiente clave a nuestro sistema de gestión al final de las propias claves del sistema-> ssh-add ~/.ssh/id_rsa
+8. clip <~/.ssh/id_rsa (para copiar el contenido del archivo id_rsa.pub)
 
 2:59:30
 COMPROBAR QUE EXISTE CONEXIÓN ENTRE NUESTRA MÁQUINA Y EL REPOSITORIO DE GITHUB
@@ -145,7 +144,7 @@ ssh -T git@github.com
 ssh -T git@github.com (al relanzarlo nos da la bienvenida pero nos dice que no tenemos acceso por el shell de GitHub)
 
 3:00:00
-CREANDO REPOSITORIO PROYECTO---------------------------------------------------------------------------------------------------------------
+CREANDO REPOSITORIO PROYECTO--------------------------------------------------------------------------------------------
 
 Nos vamos a nuestro perfil, vamos a nuestros repositorios y clicamos en uno nuevo
 Ahí nos van a decir como iniciar un nuevo repositorio. De las opciones escogemos:
@@ -156,7 +155,7 @@ Debemos hacerlo en la carpeta donde iniciamos el proyecto
 git remote add origin https://github.com/VicenteCorts/Hello-Git.git (para enlazar por consola el trajo que hemos estado haciendo hasta ahora)
 git push -u origin main
 
-*) Si da error:
+*) Si da error: 
 	6. Comprobar que la nueva clave generada funciona -> Iniciamos el agente ssh en segundo plano con:
 	eval "$(ssh-agent -s)"
 	(responde)> Agent pid 1236
@@ -167,14 +166,14 @@ git push -u origin main
 	git push -u origin main
 
 3:07:30
-AÑADIR README ()
+AÑADIR README
 Retomamos el trabajo en código local y modificamos un archivo (...)
 añadimos modificaciones (git add .), realizamos el commit (git commit -m "texto")
 Y nos vamos a Git Hub: vemos que no se ha actualizado el repositorio. 
 
 
-SUBIR PROGRESO A GIT HUB------------------------------------------------------------------------------------------------------------------------------
-
+SUBIR PROGRESO A GIT HUB-------------------------------------------------------------------------------------------------
+			
 Para actualizar en Git Hub (no en local):
 git push (ahora no es necesario git push -u origin main, porque mi local ya está sincronizado con el remoto)
 
