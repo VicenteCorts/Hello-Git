@@ -139,12 +139,13 @@ En caso de no tener claves ssh-> https://docs.github.com/es/authentication/conne
 
 2:59:30
 COMPROBAR QUE EXISTE CONEXIÓN ENTRE NUESTRA MÁQUINA Y EL REPOSITORIO DE GITHUB
+
 ssh -T git@github.com
-> (...) yes
+(...) yes
 ssh -T git@github.com (al relanzarlo nos da la bienvenida pero nos dice que no tenemos acceso por el shell de GitHub)
 
 3:00:00
-CREANDO REPOSITORIO PROYECTO--------------------------------------------------------------------------------------------
+CREANDO REPOSITORIO PROYECTO--------------------------------------------------------------------------------
 
 Nos vamos a nuestro perfil, vamos a nuestros repositorios y clicamos en uno nuevo
 Ahí nos van a decir como iniciar un nuevo repositorio. De las opciones escogemos:
@@ -188,6 +189,77 @@ git pull (Se descarga el historial y los archivos con cambios)
 	-> MOUREDEV recomienda merge (guardamos y lo cerramos para terminar la petición anterior del git bash).
 
 git pull origin main
+
+3:17:00
+UNIRSE A UN NUEVO EQUIPO DE TRABAJO
+
+Podemos clonar el proyecto para tenerlo en nuestro local
+
+Abrimos Git Bash en el escritorio (o donde queramos el nuevo proyecto)(vamos a crear la carpeta por consola también)
+git clone "git@github.com:VicenteCorts/Hello-Git.git" (url que indica el repositorio en la parte de SSH en caso de que tengamos permisos)
+-> Se descarga el repositorio entero en la ubicación seleccionada
+
+3:20:00 
+GIT PUSH (DE NUEVO)
+(...)
+
+3:21:30
+GITHUB FORK
+
+Intentamos commitear y pushear cambios a un repositorio el cual no tenemos permisos
+Para modificar una copia exacta de un repositorio al cual no tenemos permisos pulsamos el botón "Fork" en la parte superior de dicho repositorio
+De este modo creamos una copia personal de dicho repositorio en nuestro perfil y nos la descargamos para trabajar en ella
+
+3:27:00
+FLUJO COLABORATIVO
+
+Entramos en la nueva carpeta descargada y creamos un nuevo fichero
+touch hello.md
+(modificamos)
+git add .
+git commit -m "texto"
+git push
+
+Ahora en nuestro repositorio copiado de mouredev Sí podemos ver los cambios.
+
+Tras esto, queremos que de algún modo nuestros cambios le lleguen a MoureDev y se añadan en su repositorio
+Aquí es donde entra el "FORK".
+
+3:30:00
+Sync Fork -> es una especie de Merge entre repositorios de diferentes usuarios
+
+3:31:00
+PULL RQUEST (PR)
+3:34:00
+Ejemplo de como aceptar la PR y llevarla a cabo
+Ejercicio (REALIZADO)
+
+3:38:00
+CONFLICTOS EN PR
+(...)
+
+3:54:00
+SINCRONIZACION DE FORK
+
+3:58:00
+MARKDOWN EN GIT HUB
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github
+
+4:00:00
+HERRAMIENTAS GRÁFICAS (GUI) PARA GIT Y GIT HUB**************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
