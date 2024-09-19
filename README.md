@@ -247,32 +247,3 @@ https://docs.github.com/en/get-started/writing-on-github/getting-started-with-wr
 
 4:00:00
 HERRAMIENTAS GRÁFICAS (GUI) PARA GIT Y GIT HUB**************************************************
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
