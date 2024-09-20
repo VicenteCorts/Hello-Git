@@ -4,13 +4,13 @@
 https://www.youtube.com/watch?v=3GymExBkKjE&list=WL&index=1&t=2737s
 Curso de 5 horas de MoureDev
 
-GIT BASH****************************************************************************************************
+GIT BASH ****************************************************************************************************
 
 COPIAR: control central del ratón -> clic en lo que se quiere copiar para el comando
 (END): para continuar-> presionar "Q"
 
 
-GIT*********************************************************************************************************
+GIT *********************************************************************************************************
 
 https://git-scm.com/docs/git#_git_commands (LISTA DE COMANDOS)
 https://ndpsoftware.com/git-cheatsheet.html#loc=index;
@@ -107,7 +107,7 @@ git tree (vemos que todavía están los commits de lo que fue la rama login
 
 
 2:22:30
-GIT HUB******************************************************************************************************
+GIT HUB ******************************************************************************************************
 https://github.com/ (->Crear cuenta// Plataforma que usa git en la nube de forma remota, nuestro cogido esta subido en un servidor remoto y otra persona puede acceder a él)
 
 2:28:00
@@ -145,7 +145,7 @@ ssh -T git@github.com
 ssh -T git@github.com (al relanzarlo nos da la bienvenida pero nos dice que no tenemos acceso por el shell de GitHub)
 
 3:00:00
-CREANDO REPOSITORIO PROYECTO--------------------------------------------------------------------------------
+CREANDO REPOSITORIO PROYECTO --------------------------------------------------------------------------------
 
 Nos vamos a nuestro perfil, vamos a nuestros repositorios y clicamos en uno nuevo
 Ahí nos van a decir como iniciar un nuevo repositorio. De las opciones escogemos:
@@ -173,7 +173,7 @@ añadimos modificaciones (git add .), realizamos el commit (git commit -m "texto
 Y nos vamos a Git Hub: vemos que no se ha actualizado el repositorio. 
 
 
-SUBIR PROGRESO A GIT HUB-------------------------------------------------------------------------------------------------
+SUBIR PROGRESO A GIT HUB -------------------------------------------------------------------------------------------------
 			
 Para actualizar en Git Hub (no en local):
 git push (ahora no es necesario git push -u origin main, porque mi local ya está sincronizado con el remoto)
@@ -246,7 +246,7 @@ MARKDOWN EN GIT HUB
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github
 
 4:00:00
-HERRAMIENTAS GRÁFICAS (GUI) PARA GIT Y GIT HUB**********************************************
+HERRAMIENTAS GRÁFICAS (GUI) PARA GIT Y GIT HUB **********************************************
 
 - Git Hub Desktop -> https://github.com/apps/desktop (Tiene limitaciones)
 - GitKraken -> https://www.gitkraken.com/ (Favorita de MoureDev) -> Repos privados: necesita pago
@@ -254,7 +254,7 @@ HERRAMIENTAS GRÁFICAS (GUI) PARA GIT Y GIT HUB*********************************
 - GitFork -> https://git-fork.com/
 
 4:18:00
-GIT Y GITHUB FLOW****************************************************************************
+GIT Y GITHUB FLOW ****************************************************************************
 "Normas de trabajo para equipos" (rollo framework)
 https://www.gitkraken.com/learn/git/best-practices/git-branch-strategy
 https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
@@ -294,7 +294,27 @@ De aquí nos llevará a main ya que release es como la puesta en producción de 
 
 
 4:52:00
-GIT CHERRY-PICK y REBASE
+GIT CHERRY-PICK y REBASE **********************************************************
+
+Comnados avanzados
+- git cherry-pick identificador_del_commit_a_recuperar -> Desarrollamos algo muy concreto y por lo que sea no llega a buen puerto, abandonamos la rama y seguimos trabajando por otro lado. Para el tiempo... y de repente queremos recuperar un elemento/commit de dicho trabajo.
+Se trata de una funcionalidad para tomar un commit pasado concreto y traerlo a la rama que nosotros queramos.
+- git cherry-pick --continue (por si hay conflictos e ir solucionandolos todos)
+- git cherry-pick --abort
+
+- git rebase nombre_rama -> Traernos una rama a un punto concreto y modificar el historial de los commit. No es mergear una rama, es adelantarla al final del HEAD de la rama donde queremos trabajar
+- git rebase -i (para hacer un rebase interactivo paso a paso)
+- git rebase --continue
+- git rebase --abort
+
+¡¡ SON COMANDOS PELIGROSOS !!
+
+
+5:00:00
+GITHUB PAGES Y ACTIONS ***********************************************************
+
+
+
 
 
 
