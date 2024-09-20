@@ -246,4 +246,37 @@ MARKDOWN EN GIT HUB
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github
 
 4:00:00
-HERRAMIENTAS GRÁFICAS (GUI) PARA GIT Y GIT HUB**************************************************
+HERRAMIENTAS GRÁFICAS (GUI) PARA GIT Y GIT HUB**********************************************
+
+- Git Hub Desktop -> https://github.com/apps/desktop (Tiene limitaciones)
+- GitKraken -> https://www.gitkraken.com/ (Favorita de MoureDev) -> Repos privados: necesita pago
+- Sourcetree -> https://sourcetreeapp.com/ (De los creadores de Jira) -> Ttoalmente gratis
+- GitFork -> https://git-fork.com/
+
+4:18:00
+GIT Y GITHUB FLOW****************************************************************************
+"Normas de trabajo para equipos" (rollo framework)
+https://www.gitkraken.com/learn/git/best-practices/git-branch-strategy
+https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+
+4:35:00
+EJEMPLO DE GITFLOW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
