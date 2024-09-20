@@ -261,22 +261,40 @@ https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 
 4:35:00
 EJEMPLO DE GITFLOW
+Instalar plugin de gitflow
+
+TELITA PARA INSTALARLO...
+https://gist.github.com/ilyar/11190988
+https://gnuwin32.sourceforge.net/packages/util-linux-ng.htm (SOLO DESCARGAR BINARIES Y DEOENDENCES)
+https://github.com/nvie/gitflow/issues/233
+https://stackoverflow.com/questions/4891527/git-protocol-blocked-by-company-how-can-i-get-around-that
+
+4:37:00
+- git flow init (para agregar gitflow a un proyecto)
+- indicar cual es la rama de producción (main)
+- indicar cual es la rama develop
+- release, featrue, support, hotfix (lo mismo -> Enter)
+
+->NOS UBICA EN DEVELOP, la rama main es para producción, no debemos trabajar en ella
+
+FEATURE:
+
+Para seguir trabajando creamos por ejemplo una nueva rama "feature"
+git flow feature start 2auth (para inciar una rama feature titulada 2auth)
+añadimos cambios (git add .) commiteamos cambios  (git commit -m "texto")
+(trabajamos sobre ella... y cuando esté lista)
+git flow feature finish 2 auth (y directamente hará merge a la rama develop de la rama feature finalizada y commiteará)
+
+RELEASE:
+
+git flow release start 1.0 (1.0=nombre)
+git flow release finish 1.0 (1.0=nombre)
+
+De aquí nos llevará a main ya que release es como la puesta en producción de lo que tenemos hasta la fecha
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+4:52:00
+GIT CHERRY-PICK y REBASE
 
 
 
