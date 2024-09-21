@@ -35,6 +35,9 @@ git reset (volver a la última fotografía)
 git log --graph (otra vision de git log con aspecto de rama)
 git log --graph --pretty=oneline (otra forma)
 git log --graph --decorate --all --oneline (otra forma sin hash)
+
+1:03:00
+git config --global alias.tree "git log --graph --decorate --all --oneline"
 *) git tree (alias del comando superior)
 
 touch .gitignore -> abrir fichero.gitignore -> incluir dentro aquellos ficheros que no queremos tener en cuenta ( **/nombrefichero)
