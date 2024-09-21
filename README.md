@@ -313,8 +313,9 @@ Se trata de una funcionalidad para tomar un commit pasado concreto y traerlo a l
 5:00:00
 GITHUB PAGES Y ACTIONS ***********************************************************
 
-
-
-
-
+https://pages.github.com/
+Posibilidad de hacer que un repositorio actue como hosting GRATIS
+ 
+https://github.com/features/actions
+Crear automatizacioens para desplegar, pasar tests, etc...
 
