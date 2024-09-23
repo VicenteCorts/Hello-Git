@@ -1,8 +1,7 @@
 # HELLO-GIT👋
 
--------------------------------------------------------------------------
-https://www.youtube.com/watch?v=3GymExBkKjE&list=WL&index=1&t=2737s
 Curso de 5 horas de MoureDev
+https://www.youtube.com/watch?v=3GymExBkKjE&list=WL&index=1&t=2737s
 
 # GIT BASH
 
