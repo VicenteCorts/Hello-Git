@@ -296,3 +296,18 @@ https://pages.github.com/
 
 ## Crear automatizacioens para desplegar, pasar tests, etc...
 https://github.com/features/actions
+
+# #
+# #
+# APRENDIZAJE AUTODIDACTA
+### Dealing with non-fast-forward errors
+Estos errores se dan cuando hay algo en el repositorio (como un readme de inicio) y no permite mergear a local para trabajar en local y posteriormente subirlo a remoto.
+https://docs.github.com/en/get-started/using-git/dealing-with-non-fast-forward-errors
+
+### fatal: refusing to merge unrelated histories
+PELIGROSO!!!!!
+Forzar un mergeo cuando no te lo permiten desde remoto a local (en inicio del proyecto) 
+https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase
+
+- git pull origin branchname --allow-unrelated-histories
+- Y posteriormente corregir los conflictos a mano en el editor de codigo.
