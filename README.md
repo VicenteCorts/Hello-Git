@@ -148,17 +148,17 @@ https://github.com/ (->Crear cuenta// Plataforma que usa git en la nube de forma
 Nos vamos a nuestro perfil, vamos a nuestros repositorios y clicamos en uno nuevo. Ahí nos van a decir como iniciar un nuevo repositorio. De las opciones escogemos:
 Debemos hacerlo en la carpeta donde iniciamos el proyecto
 
-# ############################
 # (SUBIR EL PROYECTO A GITHUB)
-# ############################
 
 - git remote add origin https://github.com/VicenteCorts/Hello-Git.git (para enlazar por consola el trajo que hemos estado haciendo hasta ahora)
 - git push -u origin main
 
-- Si da error: 
+Si da error: 
+
 	6. Comprobar que la nueva clave generada funciona -> Iniciamos el agente ssh en segundo plano con:
 	- eval "$(ssh-agent -s)"
 	- (responde)> Agent pid 1236
+ 
 	7.  Añadir la siguiente clave a nuestro sistema de gestión al final de las propias claves del sistema
 	- ssh-add ~/.ssh/id_rsa
 	- git remote add origin https://github.com/VicenteCorts/Hello-Git.git (para enlazar por consola el trajo que hemos estado haciendo hasta ahora)
